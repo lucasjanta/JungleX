@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://dlserk0vkln5s"
+path="res://.godot/imported/Jump.aseprite-9e0d251c14bd2c46dc8e81c7cb2ec141.res"
+
+[deps]
+
+source_file="res://Art/Character/Jump/Jump.aseprite"
+dest_files=["res://.godot/imported/Jump.aseprite-9e0d251c14bd2c46dc8e81c7cb2ec141.res"]
+
+[params]
+

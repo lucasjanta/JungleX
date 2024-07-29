@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://cc6mimcvcotip"
+path="res://.godot/imported/Attack.aseprite-9a2d23d13325978987323f68c9288402.res"
+
+[deps]
+
+source_file="res://Art/Mob/Small Bee/Attack/Attack.aseprite"
+dest_files=["res://.godot/imported/Attack.aseprite-9a2d23d13325978987323f68c9288402.res"]
+
+[params]
+

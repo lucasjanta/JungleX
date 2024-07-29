@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://cvxc0vk5t5aqy"
+path="res://.godot/imported/walk-Sheet.aseprite-2be3432061fefb530828689ddc767af4.res"
+
+[deps]
+
+source_file="res://Art/Mob/Snail/walk-Sheet.aseprite"
+dest_files=["res://.godot/imported/walk-Sheet.aseprite-2be3432061fefb530828689ddc767af4.res"]
+
+[params]
+

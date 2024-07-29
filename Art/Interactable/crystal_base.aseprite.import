@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://droqdylvcxk1o"
+path="res://.godot/imported/crystal_base.aseprite-930a08757c6327d5d4b0d2379222944f.res"
+
+[deps]
+
+source_file="res://Art/Interactable/crystal_base.aseprite"
+dest_files=["res://.godot/imported/crystal_base.aseprite-930a08757c6327d5d4b0d2379222944f.res"]
+
+[params]
+

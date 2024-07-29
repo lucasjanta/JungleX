@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://bn0jd07i38wsb"
+path="res://.godot/imported/Jump-Start.aseprite-953530cc5a1bc96d0cf0c3ec1cc581cc.res"
+
+[deps]
+
+source_file="res://Art/Character/Jump-Start/Jump-Start.aseprite"
+dest_files=["res://.godot/imported/Jump-Start.aseprite-953530cc5a1bc96d0cf0c3ec1cc581cc.res"]
+
+[params]
+

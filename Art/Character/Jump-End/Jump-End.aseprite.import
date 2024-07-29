@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://b3uo38t76ai8b"
+path="res://.godot/imported/Jump-End.aseprite-3a4ea6daf75771a04a293a55d3d9d3f6.res"
+
+[deps]
+
+source_file="res://Art/Character/Jump-End/Jump-End.aseprite"
+dest_files=["res://.godot/imported/Jump-End.aseprite-3a4ea6daf75771a04a293a55d3d9d3f6.res"]
+
+[params]
+

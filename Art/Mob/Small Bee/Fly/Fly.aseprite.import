@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://e63aotfrd7pp"
+path="res://.godot/imported/Fly.aseprite-7e06a498b10a204f0e31667daaf229ca.res"
+
+[deps]
+
+source_file="res://Art/Mob/Small Bee/Fly/Fly.aseprite"
+dest_files=["res://.godot/imported/Fly.aseprite-7e06a498b10a204f0e31667daaf229ca.res"]
+
+[params]
+
