@@ -958,7 +958,7 @@ scale = Vector2(1.70605, 1.70605)
 
 [node name="BeehaveTree" type="Node" parent="Father" node_paths=PackedStringArray("blackboard", "actor")]
 script = ExtResource("3_5isus")
-blackboard = NodePath("@Node@44178")
+blackboard = NodePath("@Node@96431")
 actor = NodePath("..")
 
 [node name="SequenceComposite" type="Node" parent="Father/BeehaveTree"]
@@ -972,7 +972,6 @@ script = ExtResource("6_h1j6v")
 
 [node name="Player" parent="." instance=ExtResource("2_cakyn")]
 position = Vector2(84, 474)
-gravity = 900.0
 
 [node name="Camera2D2" type="Camera2D" parent="."]
 position = Vector2(230.4, 446.4)

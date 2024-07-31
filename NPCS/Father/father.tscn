@@ -153,9 +153,6 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vae0m"]
 size = Vector2(14, 32)
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_4xrfb"]
-radius = 35.0143
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_st78y"]
 atlas = ExtResource("4_mbvrv")
 region = Rect2(0, 0, 32, 32)
@@ -230,9 +227,12 @@ animations = [{
 "texture": SubResource("AtlasTexture_imsoc")
 }],
 "loop": true,
-"name": &"default",
+"name": &"interact",
 "speed": 10.0
 }]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_quhc5"]
+radius = 27.0185
 
 [node name="Father" type="CharacterBody2D"]
 collision_layer = 2
@@ -250,18 +250,12 @@ flip_h = true
 position = Vector2(0, -6)
 shape = SubResource("RectangleShape2D_vae0m")
 
-[node name="interact_area" type="Area2D" parent="."]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="interact_area"]
-position = Vector2(0, -8)
-shape = SubResource("CircleShape2D_4xrfb")
-
 [node name="InteractAnim" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 position = Vector2(0, -46)
 scale = Vector2(0.6875, 0.6875)
 sprite_frames = SubResource("SpriteFrames_tqoe3")
-frame_progress = 0.518411
+animation = &"interact"
 metadata/_aseprite_wizard_config_ = {
 "layer": "",
 "o_ex_p": "",
@@ -278,5 +272,11 @@ metadata/_aseprite_wizard_interface_config_ = {
 }
 metadata/_aseprite_wizard_source_file_hash_ = "8b51d7cefeb6faf437d86223d44954d7"
 
-[connection signal="body_entered" from="interact_area" to="." method="_on_interact_area_body_entered"]
-[connection signal="body_exited" from="interact_area" to="." method="_on_interact_area_body_exited"]
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, -8)
+shape = SubResource("CircleShape2D_quhc5")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]

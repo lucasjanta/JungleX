@@ -8,6 +8,7 @@ var interaction : bool = false
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	open_anim.visible = false
+	
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -28,3 +29,6 @@ func _on_area_2d_body_exited(body):
 	if body.has_method("player_method"):
 		open_anim.visible = false
 		open_anim.stop()
+		
+func interact():
+	pass
